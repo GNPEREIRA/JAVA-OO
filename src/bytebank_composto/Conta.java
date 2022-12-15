@@ -5,8 +5,8 @@ public class Conta {
 	double saldo;
 	int agencia;
 	int numero;
-	Cliente titular; //associação: toda conta tem um cliente
-	
+	//Cliente titular; //associação: toda conta tem um cliente; sem valor default
+	Cliente titular = new Cliente();//com valor default
 	
 	public void deposita(double valor){
 		this.saldo += valor;

@@ -6,6 +6,6 @@ public class Cliente {
 	String cpf;
 	String profissao;
 	
-	Endereco endereco;
+	Endereco endereco = new Endereco();
 
 }
